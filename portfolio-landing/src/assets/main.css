@@ -1,0 +1,105 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Dancing+Script:wght@400..700&family=Niconne&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Marmelad&family=Satisfy&display=swap'); */
+
+.niconne-regular {
+  font-family: 'Niconne', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.marmelad {
+  font-family: 'Marmelad', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dancing-script-700 {
+  font-family: 'Dancing Script', cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.fira-mono-regular {
+  font-family: 'Fira Mono', monospace;
+  font-style: normal;
+}
+
+.fira-mono-medium {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fira-mono-bold {
+  font-family: 'Fira Mono', monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jetbrains-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.great-vibes-regular {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: satisfy;
+  font-weight: 400;
+  src: url('../../public/Satisfy/Satisfy-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: anek;
+  font-weight: 400;
+  src: url('../../public/Anek_Devanagari/AnekDevanagari-VariableFont_wdth\,wght.ttf') format('ttf');
+}
+
+#app {
+  /* max-width: 1280px; */
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  font-weight: normal;
+  font-family: 'Marmelad', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a,
+.green {
+  /* text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+  padding: 3px; */
+}
+
+@media (hover: hover) {
+  /* a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  } */
+}
+
+@media (min-width: 1024px) {
+  /* body {
+    display: flex;
+    place-items: center;
+  } */
+
+  /* #app {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 2rem;
+  } */
+}
